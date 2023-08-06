@@ -78,7 +78,6 @@ const Create = () => {
                 <option value="Nuts & Dry Fruits">Nuts & Dry Fruits</option>
               </select>
               <span></span>
-              {/* <label>Category:</label> */}
             </div>
             <div className="txt">
               <input

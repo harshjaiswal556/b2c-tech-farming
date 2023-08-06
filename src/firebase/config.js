@@ -2,14 +2,18 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 import "firebase/compat/storage";
+
+// const dotenv = require("dotenv");
+// dotenv.config();
+
 const firebaseConfig = {
-  apiKey: "AIzaSyA9J-roVQQHJqvXVzunk6EIJwv1pVipBPk",
-  authDomain: "epics-5659a.firebaseapp.com",
-  projectId: "epics-5659a",
-  storageBucket: "epics-5659a.appspot.com",
-  messagingSenderId: "575001038576",
-  appId: "1:575001038576:web:45b99b023bf889e869fc35",
-  measurementId: "G-XK9GWWX5S5",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
 
 export const Firebase = firebase.initializeApp(firebaseConfig);
