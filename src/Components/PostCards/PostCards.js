@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import Heart from "../../assets/Heart";
 import { useHistory } from "react-router-dom";
 import { PostContext } from "../../contextStore/PostContext";
 import "./postcards.css";
