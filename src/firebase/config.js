@@ -1,18 +1,3 @@
-// import firebase from "firebase/compat/app";
-// import "firebase/compat/auth";
-// import "firebase/compat/firestore";
-// import "firebase/compat/storage";
-
-// const dotenv = require("dotenv");
-// dotenv.config();
-
-// import { initializeApp } from 'firebase/app';
-
-
-
-// export const Firebase = initializeApp(firebaseConfig);
-
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
